@@ -14,5 +14,6 @@ namespace Exercise1_2.Models
         }
 
         public System.Data.Entity.DbSet<Exercise1_2.Models.User> Users { get; set; }
+        public System.Data.Entity.DbSet<Exercise1_2.Models.Order> Orders { get; set; }
     }
 }
